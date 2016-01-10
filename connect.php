@@ -3,7 +3,7 @@
     
     error_reporting(0);
     
-    $connection = new mysqli("localhost", "cl58-codecafe", "hitwicks!1", "cl58-codecafe");
+    $connection = new mysqli("localhost", "codecafe", "password", "codecafe");
     
     if($connection->connect_errno) {
         
